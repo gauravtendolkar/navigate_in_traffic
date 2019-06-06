@@ -28,6 +28,7 @@ simulator/ (Contains simulator related code)
         road.py (Contains road related code)
     utils/
         ds.py (Contains utility functions and custom data structures)
+        constants.py (Contains all simulation related constants)
 display/ (Contains simulation visualisation related code)
     display.py (Display while running simulation)
     offline_display.py (Display from simulation logs)
