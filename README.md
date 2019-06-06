@@ -1,10 +1,6 @@
 # Reinforcement Learning for Navigating in Urban Traffic
 
-
-
 Reinforcement Learning Environment for Autonomous Cars in Traffic (Infinite Straight Road version)
-
-# Reinforcement Learning for Navigating in Urban Traffic
 
 This repository is used for the  project at Ohio State University. The repository consists of four parts - 
 1. A simulator which simulates a multi-lane infinite straight road. The road has some rule based probabilistic cars and one smart car. The rule based cars follow all traffic rules, but with different levels of aggressiveness (distance to maintain with front car, overspeeding etc). They also exhibit complex behavious like overtaking from left only, staying on right unless to overtake, etc. The smart car takes its sorrounding as input state and decides on gas/brake and steering angle. Smart car's decision function can be implemented as desired
