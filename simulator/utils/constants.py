@@ -1,12 +1,12 @@
 import math
 
 # Media #
-CAR_IMAGE_GREY_H = "media/images/car-red.png"
-CAR_IMAGE_WHITE_H = "media/images/car-grey.png"
-BACKGROUND_IMAGE = "media/images/grass.png"
-COW_IMAGE_0 = "media/images/cow0.png"
-STOP_SIGN_IMAGE = "media/images/stop.png"
-POTHOLE_IMAGE = "media/images/stop.png"
+CAR_IMAGE_GREY_H = "simulator/media/images/car-red.png"
+CAR_IMAGE_WHITE_H = "simulator/media/images/car-grey.png"
+BACKGROUND_IMAGE = "simulator/media/images/grass.png"
+COW_IMAGE_0 = "simulator/media/images/cow0.png"
+STOP_SIGN_IMAGE = "simulator/media/images/stop.png"
+POTHOLE_IMAGE = "simulator/media/images/stop.png"
 
 
 # Cow #
@@ -29,7 +29,7 @@ ROAD_DRAG_COEFF = 0.05
 INFINITE_ROAD_MAX_LENGTH = 100000
 NUM_POTHOLES_PER_M = 0.004
 CROSSING_WIDTH = 50
-ROAD_CROSSING_IMAGE = "media/images/crossing.png"
+ROAD_CROSSING_IMAGE = "simulator/media/images/crossing.png"
 
 # Display #
 PIXELS_PER_METER = 10

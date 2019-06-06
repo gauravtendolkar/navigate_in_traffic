@@ -1,13 +1,15 @@
 from display.offline_display import OfflineDisplay
 import pickle as pkl
 import pygame as pg
+import sys
 
-history_file = 'tmp/testing/ep_{}.pkl'
+simulation_name = experiment_name = sys.argv[1]
+ep_num = sys.argv[2]
+history_file = 'tmp/{}/ep_{}.pkl'
 
 d = OfflineDisplay()
-ep_num = 8400#934 #528# 459, 819
 step = 0
-history = pkl.load(open(history_file.format(ep_num), 'rb'))
+history = pkl.load(open(history_file.format(simulation_name, ep_num), 'rb'))
 
 while True:
     time_passed = d.clock.tick(30)

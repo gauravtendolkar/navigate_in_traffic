@@ -10,6 +10,8 @@ from rl.environment import IRTrafficEnv
 
 if __name__ == '__main__':
     experiment_name = sys.argv[1]
+    if not os.path.exists('tmp'):
+        os.mkdir('tmp')
     if not os.path.exists('tmp/{}'.format(experiment_name)):
         os.mkdir('tmp/{}'.format(experiment_name))
     env = IRTrafficEnv(episode_len=500)
