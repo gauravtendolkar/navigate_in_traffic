@@ -39,6 +39,8 @@ main.py (Run simulation where smart car just goes straight at speed limit)
 
 ## Requirements
 The repository uses Tensorflow 1.8.0. May throw some innocuous deprecated API warnings.
+The display part also uses Pygame 1.9.4
+Rest of the requirements are specified in requirements.txt
 
 ## Setup
 1. Setup python 3 virtual environment. If you dont have ```virtualenv```, install it with
