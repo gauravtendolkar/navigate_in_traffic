@@ -45,6 +45,6 @@ tf-agents-nightly==0.2.0.dev20190430
 tf-estimator-nightly==1.14.0.dev2019051401
 tf-nightly==1.14.1.dev20190514
 tfp-nightly==0.7.0.dev20190514
-urllib3==1.22
+urllib3==1.26.5
 Werkzeug==0.15.2
 wrapt==1.11.1
