@@ -1,7 +1,7 @@
 absl-py==0.7.1
 alabaster==0.7.10
 astor==0.7.1
-Babel==2.5.3
+Babel==2.9.1
 certifi==2018.1.18
 chardet==3.0.4
 cloudpickle==1.0.0
